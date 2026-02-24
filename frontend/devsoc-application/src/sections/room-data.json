@@ -1,0 +1,52 @@
+[
+  { 
+    "name": "AGSM",
+    "imageURL": "../../assets/agsm.webp",
+    "roomsAvailable": 5
+  },
+  { 
+    "name": "Ainsworth Building",
+    "imageURL": "../../assets/ainsworth.webp",
+    "roomsAvailable": 17
+  },
+  { 
+    "name": "Anita B Lawrence Centre",
+    "imageURL": "../../assets/anitab.webp",
+    "roomsAvailable": 44
+  },
+  { 
+    "name": "Biological Sciences",
+    "imageURL": "../../assets/biologicalScience.webp",
+    "roomsAvailable": 6
+  },
+  { 
+    "name": "Biological Sciences (West)",
+    "imageURL": "../../assets/biologicalScienceWest.webp",
+    "roomsAvailable": 8
+  },
+  { 
+    "name": "Blockhouse",
+    "imageURL": "../../assets/blockhouse.webp",
+    "roomsAvailable": 42
+  },
+  { 
+    "name": "Business School",
+    "imageURL": "../../assets/businessSchool.webp",
+    "roomsAvailable": 18
+  },
+  { 
+    "name": "Civil Engineering Building",
+    "imageURL": "../../assets/civilBuilding.webp",
+    "roomsAvailable": 8
+  },
+  { 
+    "name": "Colombo Building",
+    "imageURL": "../../assets/colombo.webp",
+    "roomsAvailable": 5
+  },
+  { 
+    "name": "Computer Science & Eng (K17)",
+    "imageURL": "../../assets/cseBuilding.webp",
+    "roomsAvailable": 7
+  }
+]

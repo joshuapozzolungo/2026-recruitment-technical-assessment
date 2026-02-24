@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #EC6D02;
+  --font-primary: "Josefin Sans", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+}
+
+@utility secondary-text {
+  color: var(--color-primary);
+  font: var(--font-secondary);
+  font-weight: bold;
+}
+
+@utility icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-primary);
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(236, 109, 2, 0.5);
+  border-radius: 5px;
+ }
+
+.icons:hover {
+  border: 1px solid rgba(236, 109, 2, 1);
+  background-color: #FEFAF7;
+  cursor: pointer;
+}
+
+.icons:active {
+  background-color: #EC6D02;
+  color: white;
+}
+
+@utility filter-icons {
+  display: flex;
+  content: center;
+  align-items: center;
+  column-gap: 4px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--color-primary);
+  border-radius: 0.5rem;
+  width: 140px;
+  height: 44px;
+  padding: 20px;
+}
+
+.filter-icons:hover {
+  cursor: pointer;
+}
+
